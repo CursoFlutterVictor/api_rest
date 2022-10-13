@@ -4,10 +4,8 @@
 // GENERAR EL MODELO DESDE UNA URL
 // get generate model on home from "https://api.github.com/users/CpdnCristiano"
 
-//import 'package:api_rest/models/proof_model.dart';
+import 'package:api_rest/services/reqres_services.dart';
 
 void main() {
-  //ProofModel p = ProofModel.fromJson();
-
-  print("Hola");
+  ServicesReqResApi().getReqRepService();
 }

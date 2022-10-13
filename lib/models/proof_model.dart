@@ -1,4 +1,4 @@
-class Usuario {
+class ProofModel {
   String? login;
   int? id;
   String? nodeId;
@@ -32,7 +32,7 @@ class Usuario {
   String? createdAt;
   String? updatedAt;
 
-  Usuario(
+  ProofModel(
       {this.login,
       this.id,
       this.nodeId,
@@ -66,7 +66,7 @@ class Usuario {
       this.createdAt,
       this.updatedAt});
 
-  Usuario.fromJson(Map<String, dynamic> json) {
+  ProofModel.fromJson(Map<String, dynamic> json) {
     login = json['login'];
     id = json['id'];
     nodeId = json['node_id'];
